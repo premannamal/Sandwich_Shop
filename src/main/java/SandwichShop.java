@@ -21,7 +21,7 @@ public class SandwichShop {
         } else if (age >= 65) {
             sandwich_cost = sandwich_cost * (1.0f - 0.20f);
         }
-
+        // Calculate sandwich cost
         System.out.println("Cost of the sandwich " + sandwich_cost);
     }
 }
